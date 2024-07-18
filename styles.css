@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+#currentLocationWeather {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+
+.weather-sunny {
+    background-color: #fbc02d;
+}
+
+.weather-rainy {
+    background-color: #0288d1;
+}
+
+.weather-cloudy {
+    background-color: #90a4ae;
+}
+
+#map {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+}
